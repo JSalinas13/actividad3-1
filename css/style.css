@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    font-size: 20px;
+    margin: 100px;
+}
+
+.caja {
+    border-radius: 100px;
+    border-color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20px;
+    width: 200px;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.btn {
+    border-radius: 100px;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+    width: 150px;
+    color: black;
+    background-color: white;
+}
+
+.btn-ocultar {
+    border-radius: 100px;
+    text-align: center;
+    border-color: grey;
+    border-spacing: 10px;
+    font-size: 50px;
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    height: 55px;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+
+#check {
+    display: none;
+}
+
+.contenedor {
+    padding: 150px;
+}
+
+.correo-s {
+    align-items: center;
+    padding: 100px;
+}
+
+.contenedor div {
+    height: 0;
+    overflow: hidden;
+    -webkit-transform: all 1s linear;
+    -moz-transform: all 1s linear;
+    -o-transform: all 1s linear;
+}
+
+.contenedor label:active {
+    background-color: rgb(146, 18, 18);
+}
+
+.contenedor #check:checked~div {
+    height: 100%;
+}
+
+.res {
+    background-color: rgba(0, 128, 0, 0.838);
+}
